@@ -1,12 +1,12 @@
 
-.h11 {
+.h1 {
     background-color:#4aaaa5;
     color: #ffffff;
     height: 122%;
     text-align: center;
-    margin-top: -12px;
-    width: 300px;
-
+    margin-top: -2.65%;
+    width: 64%;
+    
 }
 .nopad {
     padding: 0;
@@ -20,8 +20,8 @@
     width: 100vw;
     height: 100vh;
     margin: 0;
-    margin-top: -25px;
-    padding-top: 35px;
+    margin-top: -2.2%;
+    padding-top: 5%;
 }
 footer {
     background-color: #666666;
@@ -40,9 +40,9 @@ footer {
     font-size: 10px;
 }
 .form {
-    width: 968px;  
+    width: 100%;  
     background-color: #ffffff;
-    padding-top: 20px;
+    padding-top: 3%;
 }  
     
 header {
@@ -52,8 +52,7 @@ header {
     width: 968px;
     height: 20px;
 }
-.card-body {
-    padding-left: 10%;
+
 }
 .wbackround {
     background-color: #ffffff;
@@ -65,3 +64,15 @@ h2 {
 img {
     margin-left: 15%;
 }
+.col-md-auto {
+    width: 75%;
+    margin-left: 3%;
+}
+@media screen and (max-width: 640px) {
+    h1 {
+        margin-top: -2.2%;
+        width: 300%;
+        padding-left: 60%;
+        margin-left: -17%;
+        height: 100%;
+        width: 300%;
