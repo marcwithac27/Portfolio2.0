@@ -1,8 +1,12 @@
+
 .h11 {
-    font-size: 37px;
     background-color:#4aaaa5;
     color: #ffffff;
+    height: 122%;
     text-align: center;
+    margin-top: -12px;
+    width: 300px;
+
 }
 .nopad {
     padding: 0;
@@ -16,6 +20,8 @@
     width: 100vw;
     height: 100vh;
     margin: 0;
+    margin-top: -25px;
+    padding-top: 35px;
 }
 footer {
     background-color: #666666;
@@ -34,18 +40,28 @@ footer {
     font-size: 10px;
 }
 .form {
-    width: 968px;
-    padding-top: 100px;  
+    width: 968px;  
+    background-color: #ffffff;
+    padding-top: 20px;
 }  
     
-}
-.header {
-    width: 968;
-    height: 20px;
+header {
+    height: 55px;
 }
 .width {
     width: 968px;
     height: 20px;
 }
+.card-body {
+    padding-left: 10%;
+}
+.wbackround {
+    background-color: #ffffff;
+}
+h2 {
+    color: #4aaaa5;
 
-
+}
+img {
+    margin-left: 15%;
+}
