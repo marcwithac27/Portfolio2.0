@@ -6,53 +6,76 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Contact Me</title>
         <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="assets/css/style.css">
-    
     <body >
-        <header >
-            <h1>
-                Marc Maldonado
-            </h1>
-            <nav>
-                <div id="right">
-                    <a href="#">Contact</a>
-                </div>
-                <div id="middle">
-                    <a href="portfolio.html">Portfolio</a>
-                </div>
-                <div id="left">
-                    <a href="index.html">About</a> 
-            </nav>
+        <header class="container-fluid">
+                <div class="container">
+                        <div class="row">
+                          <div class="col-sm nopad">
+                            <h1 class="h11">
+                                Marc Maldonado
+                            </h1>
+                          </div>
+                          <div class="col-sm">
+                            
+                          </div>
+                          <div class="col-sm">
+                                <nav container-sm>
+                                        <ul class="nav justify-content-end">
+                                        <li class="nav-item">
+                                        <a class="nav-link active" href="index.html">About</a>
+                                        </li>
+                                        <li class="nav-item">
+                                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                                    </li>
+                                        <li class="nav-item">
+                                        <a class="nav-link" href="#">Contact</a>
+                                                        </li>
+                                                        
+                                        </ul>  
+                                        </nav>
+                          </div>
+                        </div>
+                      </div>
         </header>
 
         <br>
-    <section class="backround">
-        <section class="container">
-            <h2>Contact Me</h2>
+    <section class="container-fluid backround">
+        <section class="container-fluid">
+            <form class="container">
+                <h2>Contact Me</h2>
             <hr>
         <div>
-            <form action="" method="POST">
-            <div>Name
-                <br>
-                <input class="form" type="text" name="Name" placeholder="Your Name">
+           
+                    
+            <div class="row">
+            <div class="col">
+            <input type="text" class="form-control" placeholder="First name">
             </div>
-            <div>Email
-                <br>
-                <input class="form" type="email" name="Email" placeholder="Email">
+                <div class="col">
+                <input type="text" class="form-control" placeholder="Last name">
+                </div>
             </div>
-            <div>Message
-                <br>
-                <textarea name="Message" id="" cols="30" rows="10" class="form"></textarea>
-            </div>
-            <br>
-            <input type="submit" class="form submit" value="Submit">
-            </form>
+                  <br>        
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email Address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
         </div>
         </section>
     </section>
 
-    <footer>
-        <div class="copyright">
+    <footer class= "footer mt-auto py-3 footer">
+        <div class="container copyright">
             Copyright&copy;
         </div>
     </footer>
