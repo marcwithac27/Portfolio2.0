@@ -96,7 +96,6 @@ img {
     margin-bottom: 20%;
     height: 10%;
 }
-}
 .margin3 {
     margin-left: -.3%;
 }
@@ -109,13 +108,16 @@ a:active {
 }
 @media screen and (max-width: 980px){
     .h1 {
-        height: 134%;
-        width: 75%;
-        font-size: 37px;
-        margin-left: -3%;
+        height: 120%;
+        width: 60%;
+        font-size: 30px;
+        margin-left: 8%;
     }
     header {
         margin-bottom: -1.5%;
+    }
+    .maxw {
+        max-width: 800px;
     }
 }
 
@@ -123,7 +125,7 @@ a:active {
     .h1 {
         
         
-        width: 55%;
+        width: 40%;
         font-size: 28px;
         margin-left: 18%;
         margin-top: -7%;
@@ -140,8 +142,12 @@ a:active {
         max-width: 740px;
     }
     
-    .nav4 {
-        margin-bottom: 8%;
+    .nav1 {
+        width: 44%;
+        font-size: 14px;
+        margin-left: -10%;
+    }
+    
     }
     
     
@@ -176,11 +182,11 @@ a:active {
     .footer {
         width: 115%;
     }
-    .nav2 {
+    .nav1 {
         margin-left: 15%;
         width: 67%;
-        padding-top: 5%;
-        margin-bottom: -2%;
+        padding-top: 2%;
+        margin-bottom: 2%;
     }
   
 }
