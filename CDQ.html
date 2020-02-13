@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <link href="assets/css/CDQ.css" rel="stylesheet">
+  <script defer src="assets/js/CDQ.js"></script>
+  <title>Quiz App</title>
+</head>
+<body>
+    <header id='records' class="hide"><div  class="container container-timer d-flex align-content-between flex-wrap">
+            <div  class="row">
+              <div  class="col-sm">
+                Seconds Left
+                <span id="timer" class="card"></span>
+              </div>
+              <div id="current-score" class="col-sm">
+                Current Score
+                <span id="actual-score" class="card"></span>
+              </div>
+              <div id="high-score">
+                High Score
+                <span id="highScore" class="card"></span>
+                <span id="initials" class="card">
+                  <span id=int></span>
+                </span>
+              </div>
+            </div>
+          </div></header>
+          <br>
+    
+  <div id='container' class="container">
+    <div id="question-container" class="hide">
+      <div id="question">Question</div>
+      <div id="answer-buttons" class="btn-grid">
+        <button class="btn">Answer 1</button>
+        <button class="btn">Answer 2</button>
+        <button class="btn">Answer 3</button>
+        <button class="btn">Answer 4</button>
+      </div>
+    </div>
+    <div class="controls">
+      <button id="start-btn" class="start-btn btn">Start</button>
+      <button id="next-btn" class="next-btn btn hide">Next</button>
+    </div>
+  </div>
+  <br>
+  <div id='outOfTime' class="container hide">
+      You suck Refresh and Try again
+  </div>
+  
+</body>
+</html>
